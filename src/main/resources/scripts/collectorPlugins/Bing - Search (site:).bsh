@@ -1,0 +1,89 @@
+import java.io.IOException;
+import java.io.InputStream;
+import java.io.InputStreamReader;
+import java.io.UnsupportedEncodingException;
+import java.net.MalformedURLException;
+import java.net.URL;
+import java.net.URLConnection;
+import java.net.URLEncoder;
+import java.util.ArrayList;
+import java.util.List;
+import org.apache.commons.codec.binary.Base64;
+import org.json.JSONException;
+import org.json.JSONObject;
+import com.sensepost.yeti.results.CollectorResult;
+
+String info = "This plugin uses the Bing Search engine with the SITE: dork, add a list of domains you want to search";
+
+public void searchBing(String target,String bingKey){
+    controller.debug("search for:" +target);
+    String accountKey = ":"+bingKey;
+    byte[] accountKeyBytes = Base64.encodeBase64(accountKey.getBytes());
+    String accountKeyEnc = new String(accountKeyBytes);
+    String q = "'site:"+target+"'";
+    String bingURL = "https://api.datamarket.azure.com/Bing/SearchWeb/Web?Query=" + URLEncoder.encode(q, "UTF-8") + "&$format=json";
+    controller.debug("bing URL:" +bingURL);
+    
+    JSONObject result = null;
+    try {
+        URL url = new URL(bingURL);
+        URLConnection urlConnection = url.openConnection();
+        urlConnection.setRequestProperty("Authorization", "Basic " + accountKeyEnc);
+        InputStream is = urlConnection.getInputStream();
+        InputStreamReader isr = new InputStreamReader(is);
+
+        int numCharsRead;
+        char[] charArray = new char[1024];
+        StringBuilder sb = new StringBuilder();
+        while ((numCharsRead = isr.read(charArray)) > 0) {
+            sb.append(charArray, 0, numCharsRead);
+        }
+        result = new JSONObject(sb.toString());            
+        int len = result.getJSONObject("d").getJSONArray("results").length();
+        List hostnames = new ArrayList();
+        
+        for (int x=0; x<len;x++){
+            String u = result.getJSONObject("d").getJSONArray("results").getJSONObject(x).getString("Url");
+            URL nu = new URL(u);
+            String hostname = nu.getHost();
+            if (target == hostname || hostnames.contains(hostname)) {
+                continue;
+            }
+            controller.debug("Found " + hostname);
+            hostnames.add(hostname);
+            String domain = utilApi.getDomainFromHostname(hostname);
+            CollectorResult r = new CollectorResult();
+            r.setIpAddress(target);
+            r.setHostName(hostname);
+            r.setDomainName(domain);
+            r.setType("A");
+            controller.addResult(r);
+            controller.debug("Added");
+        }            
+        controller.debug("Done");
+    } catch (MalformedURLException e) {
+        e.printStackTrace();
+    } catch (IOException e) {
+        e.printStackTrace();
+    }
+}
+
+if (execute){
+    controller.debug("Starting Bing site search");
+        String bingKey = utilApi.getConfigValue("bing.apikey");
+    if (bingKey == null || bingKey == ""){
+        bingKey = utilApi.showInputBox("Please enter your BING KEY");
+        if (bingKey != ""){
+            utilApi.setConfigValue("bing.apikey",bingKey);
+         }
+    }
+    if (bingKey == "") {
+        return;
+    }
+    for (int idx = 0; idx < input.size(); idx++){
+        String target = input.get(idx);
+        searchBing(target,bingKey);
+    }
+} else {
+    return info;
+}

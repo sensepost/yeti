@@ -1,0 +1,87 @@
+import com.sensepost.yeti.plugins.DataAPI;
+import com.sensepost.yeti.plugins.UtilAPI;
+import java.lang.Runtime;
+import java.io.File;
+import javax.xml.parsers.DocumentBuilder;
+import javax.xml.parsers.DocumentBuilderFactory;
+import org.w3c.dom.Document;
+import org.w3c.dom.Element;
+import org.w3c.dom.Node;
+import org.w3c.dom.NodeList;
+
+controller.addOutput("Starting NMap (All hosts) plugin...");
+nmLocation = utilApi.getConfigValue("nmap.location");
+if (nmLocation == null || nmLocation.isEmpty() || "void".equals(nmLocation)) {
+    nmLocation = utilApi.showInputBox("Please enter NMap executable location");
+    if (!nmLocation.isEmpty()) {
+        utilApi.setConfigValue("nmap.location", nmLocation);
+    }
+}
+controller.addOutput("nmLocation:" + nmLocation + ":");
+
+tempFileStr = System.getProperty("java.io.tmpdir") + "/nmTemp.xml";
+params = utilApi.showInputBox("Enter nmap params");
+
+for (ip : dataApi.getAllIPS()) {
+    controller.addOutput("Lookup for: " + ip + "...");
+    try {
+        f = new File(tempFileStr);
+        if (f.exists()){
+            f.delete();
+        } else {
+            f.createNewFile();
+       }
+
+        cmd = nmLocation + " " + params + " -oX " + tempFileStr + " " + ip;
+        controller.addOutput(cmd);
+        run = Runtime.getRuntime();
+        exec(cmd);
+
+        dbFactory = DocumentBuilderFactory.newInstance();
+        dBuilder = dbFactory.newDocumentBuilder();
+        doc = dBuilder.parse(f);
+        doc.getDocumentElement().normalize();
+
+        nList = doc.getElementsByTagName("port");
+        if (nList != null && nList.getLength() > 0) {
+            for (int i = 0; i < nList.getLength(); i++) {
+                node = nList.item(i);
+                if (node != null && node.getNodeType() == Node.ELEMENT_NODE) {
+                    element = (Element) node;
+                    portStr = element.getAttribute("portid");
+                    if (portStr != null && !portStr.isEmpty()) {
+                        port = new Integer(portStr);
+                        state = "";
+                        service = "";
+                        version = "";
+                        extraInfo = "";
+
+                        nl = element.getElementsByTagName("state");
+                        if (nl != null && nl.getLength() > 0) {
+                            child = nl.item(0);
+                            if (child != null && child.getNodeType() == Node.ELEMENT_NODE) {
+                                el = (Element) child;
+                                state = el.getAttribute("state");
+                            }
+                        }
+
+                        nl = element.getElementsByTagName("service");
+                        if (nl != null && nl.getLength() > 0) {
+                            child = nl.item(0);
+                            if (child != null && child.getNodeType() == Node.ELEMENT_NODE) {
+                                el = (Element) child;
+                                service = el.getAttribute("name");
+                                version = el.getAttribute("version");
+                                extraInfo =  el.getAttribute("extrainfo");
+                            }
+                        }
+                        dataApi.addPortToIP(ip, port, state, service, version, extraInfo);
+                    }
+                }
+            }
+        }
+    } catch (Exception e) {
+        controller.addOutput(e);
+    }
+}
+controller.addOutput("NMap plugin done");

@@ -1,0 +1,81 @@
+import com.sensepost.yeti.plugins.DataAPI;
+import com.sensepost.yeti.plugins.UtilAPI;
+import java.io.File;
+import javax.xml.parsers.DocumentBuilder;
+import javax.xml.parsers.DocumentBuilderFactory;
+import org.w3c.dom.Document;
+import org.w3c.dom.Element;
+import org.w3c.dom.Node;
+import org.w3c.dom.NodeList;
+
+controller.addOutput("Starting WhatWeb plugin...");
+wwLocation = utilApi.getConfigValue("whatweb.location");
+if (wwLocation.isEmpty()) {
+    wwLocation = utilApi.showInputBox("Please enter WhatWeb executable location");
+    if (!wwLocation.isEmpty()) {
+        utilApi.setConfigValue("whatweb.location", wwLocation);
+    }
+}
+
+tempFileStr = System.getProperty("java.io.tmpdir") + "/wwTemp.xml";
+for (host : dataApi.getHosts(dataApi.getCurrentFootprintId())) {
+    controller.addOutput("Lookup for: " + host + "...");
+    try {
+        f = new File(tempFileStr);
+        if (f.exists()){
+            f.delete();
+        } else {
+            f.createNewFile();
+        }
+
+        cmd = wwLocation + " --log-xml=" + tempFileStr + " " + host;
+        run = Runtime.getRuntime();
+        exec(cmd);
+
+        dbFactory = DocumentBuilderFactory.newInstance();
+        dBuilder = dbFactory.newDocumentBuilder();
+        doc = dBuilder.parse(f);
+        doc.getDocumentElement().normalize();
+
+        nList = doc.getElementsByTagName("plugin");
+        if (nList != null) {
+            for (int i = 0; i < nList.getLength(); i++) {
+                node = nList.item(i);
+                if (node != null && node.getNodeType() == Node.ELEMENT_NODE) {
+                    eElement = (Element) node;
+                    name = eElement.getElementsByTagName("name").item(0).getTextContent();
+                    String value = "";
+                    
+                    nl = eElement.getElementsByTagName("string");
+                    if (nl.getLength() == 0) {
+                        nl = eElement.getElementsByTagName("version");
+                    }
+                    if (nl.getLength() > 0) {
+                        value = nl.item(0).getTextContent();
+                    }
+
+                    nl = eElement.getElementsByTagName("certainty");
+                    if (nl.getLength() > 0) {
+                        value = "[guess --> " + nl.item(0).getTextContent() + "% certainty]";
+                    }
+                    out = " - " + name;
+                    if (value != null && !value.isEmpty()) {
+                        out += ":" + value;
+                    }
+                    controller.addOutput(out);
+                    dataApi.addHostAttribute(host, name, value);
+                }
+            }
+        }
+        
+        nList = doc.getElementsByTagName("http-status");
+        if (nList != null && nList.getLength() > 0) {
+            status = nList.item(0).getTextContent();
+            controller.addOutput(" - http-status:" + status);
+            dataApi.addHostAttribute(host, "http-status", status);
+        }
+    } catch (Exception e) {
+        controller.addOutput(e);
+    }
+}
+controller.addOutput("WhatWeb plugin done");

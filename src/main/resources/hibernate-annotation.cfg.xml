@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-configuration PUBLIC
+        "-//Hibernate/Hibernate Configuration DTD 3.0//EN"
+        "http://hibernate.org/dtd/hibernate-configuration-3.0.dtd">
+<hibernate-configuration>
+    <session-factory>
+        <!-- REMOVE IN PRODUCTION!!! -->
+        <property name="show_sql">false</property>
+        
+        <property name="format_sql">true</property>
+        <property name="hbm2ddl.auto">update</property>
+         
+         <!-- HIBERNATE'S CONNECTION POOL NOT TO BE USED IN PRODUCTION!!!! -->
+         <property name="connection.pool_size">10</property>
+         
+        <!-- org.hibernate.HibernateException: No CurrentSessionContext configured! -->
+        <property name="hibernate.current_session_context_class">thread</property>
+         
+        <mapping class="com.sensepost.yeti.persistence.entities.Footprint"/>
+        <mapping class="com.sensepost.yeti.persistence.entities.InitialData"/>
+        <mapping class="com.sensepost.yeti.persistence.entities.Domain"/>
+        <mapping class="com.sensepost.yeti.persistence.entities.DomainAttribute"/>
+        <mapping class="com.sensepost.yeti.persistence.entities.Host"/>
+        <mapping class="com.sensepost.yeti.persistence.entities.HostAttribute"/>
+        <mapping class="com.sensepost.yeti.persistence.entities.IpAddress"/>
+        <mapping class="com.sensepost.yeti.persistence.entities.Port"/>
+        <mapping class="com.sensepost.yeti.persistence.entities.config.ConfigurationProperty"/>
+        <mapping class="com.sensepost.yeti.persistence.entities.config.ServerOption"/>
+        <mapping class="com.sensepost.yeti.persistence.entities.config.WhoisServer"/>
+        
+    </session-factory>
+</hibernate-configuration>

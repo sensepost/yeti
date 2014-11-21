@@ -1,0 +1,9 @@
+.co.za
+.com
+.net
+.co.uk
+.info
+.co.bw
+.org
+.biz
+.mobi

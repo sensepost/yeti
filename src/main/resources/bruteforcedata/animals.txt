@@ -1,0 +1,1860 @@
+fish
+dog
+horse
+lion
+cancer
+rail
+bird
+cat
+fly
+cricket
+sheep
+cattle
+sole
+fox
+turkey
+robin
+ray
+chicken
+mouse
+rabbit
+salmon
+pet
+cow
+seal
+duck
+pig
+eagle
+swift
+owl
+rat
+swan
+bat
+mice
+deer
+elephant
+jay
+tiger
+ivory
+bleak
+wolf
+fisher
+swallow
+dolphin
+insect
+coral
+trout
+pearl
+pony
+spider
+butterfly
+goat
+hobby
+tick
+worm
+whale
+monkey
+pike
+mole
+donkey
+hare
+bee
+frog
+jaguar
+peacock
+sponge
+goose
+boxer
+penguin
+smelt
+roller
+hen
+ant
+bream
+camel
+carp
+cuckoo
+weaver
+pigeon
+poultry
+boar
+hawk
+parrot
+cod
+hind
+bug
+goldfish
+herring
+tuna
+badger
+roach
+ferret
+crow
+crab
+pointer
+plumage
+drake
+ass
+roe
+dove
+buffalo
+stag
+perch
+finch
+dinosaur
+heron
+beak
+snail
+mammal
+toad
+moth
+falcon
+beetle
+mink
+hedgehog
+chub
+kingfisher
+crocodile
+pastor
+lobster
+emu
+swine
+lark
+canary
+mosquito
+leopard
+squirrel
+wasp
+oyster
+maggot
+catfish
+cobra
+shrimp
+raven
+diver
+terrier
+zebra
+wren
+bovine
+husky
+moray
+ape
+slug
+lizard
+tit
+greyhound
+mammoth
+mite
+blackbird
+nightingale
+grouse
+kiwi
+pheasant
+otter
+ox
+sparrow
+leech
+mule
+gull
+prawn
+partridge
+flea
+panda
+caterpillar
+eel
+octopus
+beaver
+chimpanzee
+gibbon
+buzzard
+dab
+squid
+reindeer
+shellfish
+mackerel
+lac
+kestrel
+weasel
+fowl
+python
+hog
+ostrich
+lynx
+fieldfare
+gorilla
+lama
+haddock
+fawn
+tadpole
+vole
+char
+skate
+hoof
+panther
+scorpion
+magpie
+roebuck
+reptile
+vulture
+wallaby
+barbel
+plover
+cichlid
+pelican
+shag
+rook
+bulldog
+tern
+midge
+collie
+vermin
+rudd
+mallard
+pout
+antelope
+spaniel
+rhinoceros
+hamster
+cocoon
+starfish
+hummingbird
+moose
+chameleon
+woodpecker
+quail
+poodle
+porpoise
+bib
+swordfish
+corgi
+warbler
+woodworm
+stork
+malamute
+puma
+baboon
+flounder
+wrasse
+teal
+newt
+plaice
+brill
+shrew
+bantam
+mussel
+dace
+jellyfish
+guppy
+flamingo
+woodcock
+alligator
+sloth
+snipe
+beagle
+firefly
+cheetah
+curlew
+springbok
+chrysalis
+albatross
+clam
+marten
+giraffe
+okapi
+condor
+puffin
+ermine
+seagull
+dragonfly
+asp
+walrus
+sandpiper
+ladybird
+cayman
+tench
+eider
+tetra
+linnet
+pipit
+snapper
+waterfowl
+viper
+amphibian
+bongo
+bluebird
+nutcracker
+redshank
+yak
+hippo
+sheepdog
+cassowary
+caribou
+loach
+retriever
+cockroach
+barb
+hornet
+sable
+skimmer
+griffon
+dodo
+greenfly
+bison
+grasshopper
+scallop
+jackal
+osprey
+trumpeter
+mollusc
+louse
+skylark
+chamois
+fulmar
+petrel
+creeper
+marsupial
+sardine
+scampi
+boa
+dipper
+piranha
+booby
+dory
+dunlin
+mother-of-pearl
+stoat
+grenadier
+bloodworm
+earthworm
+anchovy
+skunk
+porcupine
+sturgeon
+gossamer
+crayfish
+mantis
+possum
+belemnite
+salamander
+pug
+basset
+termite
+skua
+hippopotamus
+rattlesnake
+jackdaw
+moorhen
+loon
+aphid
+chaffinch
+gnat
+limpet
+pitta
+setter
+colobus
+wigeon
+tyrannosaurus
+dormouse
+bottlenose
+ibis
+gadfly
+shelduck
+sandgrouse
+lungfish
+solitaire
+locust
+krill
+llama
+cockle
+barnacle
+cowrie
+bustard
+stickleback
+snook
+flycatcher
+cormorant
+angelfish
+whitefly
+barracuda
+tarantula
+erne
+gannet
+auk
+conch
+crustacean
+sprat
+lurcher
+hyena
+platypus
+nautilus
+conger
+elk
+mullet
+shearwater
+antler
+bittern
+silverfish
+chihuahua
+minnow
+lamprey
+ptarmigan
+dunnock
+wagtail
+budgerigar
+nit
+gerbil
+dogfish
+coypu
+monkfish
+macaque
+guillemot
+bloodhound
+iguana
+gudgeon
+turbot
+mongoose
+grebe
+alpaca
+kelpie
+egret
+bonito
+coot
+whooper
+coyote
+centipede
+whippet
+gastropod
+amoeba
+entomology
+mamba
+cockatoo
+wheatear
+anthropoid
+bivalve
+goshawk
+pochard
+goby
+armadillo
+whelk
+parakeet
+hookworm
+ammonite
+macaw
+dachshund
+halibut
+capercaillie
+polecat
+brontosaurus
+stingray
+anteater
+hake
+flatfish
+oryx
+screamer
+wombat
+bumblebee
+mockingbird
+rhea
+cleg
+nightjar
+gar
+mastiff
+mayfly
+corncrake
+manta
+chipmunk
+grouper
+muntjac
+imago
+orca
+kittiwake
+koala
+pilchard
+raptor
+sailfish
+lemur
+peewit
+aardvark
+scoter
+merganser
+bluebottle
+merino
+phalarope
+narwhal
+impala
+ibex
+cicada
+silkworm
+cuttlefish
+shad
+dingo
+godwit
+marmot
+tunny
+weevil
+fantail
+avocet
+crake
+scarab
+grampus
+opossum
+terrapin
+toucan
+earwig
+woodlouse
+redbreast
+kudu
+coelacanth
+papillon
+albacore
+tapeworm
+natterjack
+botfly
+gnu
+chinchilla
+roadrunner
+babirusa
+hornbill
+diplodocus
+thrips
+millipede
+wolverine
+ocelot
+bullfinch
+shoveler
+lovebird
+pangolin
+insectivore
+triceratops
+bullfrog
+pterodactyl
+zebu
+iguanodon
+tapir
+argonaut
+stilt
+whitethroat
+anaconda
+sunfish
+redstart
+greenshank
+kea
+goldcrest
+raccoon
+eland
+muskrat
+crawler
+conodont
+cochineal
+sawfly
+nuthatch
+capuchin
+characin
+cougar
+lugworm
+shrike
+lancelet
+flatworm
+whitebait
+gecko
+jigger
+hoopoe
+triggerfish
+scaup
+lobworm
+capybara
+darter
+quetzal
+civet
+yellowhammer
+turnstone
+abalone
+tarsier
+chiton
+blackcock
+spoonbill
+chough
+gurnard
+hagfish
+copepod
+moa
+skink
+potto
+lory
+siskin
+hairstreak
+thylacine
+agouti
+archaeopteryx
+langur
+bullhead
+vivarium
+jerboa
+mudskipper
+redpoll
+siamang
+plesiosaur
+takin
+gopher
+blenny
+topi
+whydah
+waterbuck
+manatee
+sidewinder
+gyrfalcon
+marabou
+razorbill
+horsefly
+cephalopod
+paca
+echidna
+stonefish
+dromedary
+dotterel
+blackbuck
+nilgai
+quagga
+aye-aye
+aurochs
+foxhound
+colugo
+damselfly
+mynah
+cuscus
+annelid
+whitefish
+nighthawk
+bowfin
+rorqual
+dugong
+barbet
+wapiti
+blowfly
+bushbaby
+bushbuck
+kiang
+yellowtail
+margay
+indri
+bowhead
+whinchat
+tarpon
+thickhead
+mastodon
+chordate
+pipefish
+vicuna
+bobcat
+oilbird
+nacre
+coati
+kookaburra
+trematode
+boxfish
+borzoi
+ambergris
+binturong
+ungulate
+guanaco
+ouzel
+schnauzer
+gerenuk
+alewife
+smew
+lammergeier
+caracara
+goldfinch
+avifauna
+bedbug
+crossbill
+housefly
+caiman
+banteng
+butterfish
+planarian
+basenji
+hawfinch
+threadworm
+frogmouth
+wryneck
+tanager
+blackcap
+meerkat
+hyrax
+tinamou
+cephalaspid
+chalcid
+pompano
+cockatiel
+cockchafer
+coonhound
+cotinga
+coucal
+tragopan
+bandicoot
+leatherjacket
+pika
+saiga
+garfish
+anoa
+grosbeak
+bonobo
+stonechat
+titmouse
+bobolink
+therapsid
+thecodont
+ovenbird
+mouflon
+tenrec
+bulbul
+megapode
+trogon
+bluethroat
+bluefish
+tuatara
+tamandua
+tunicate
+takahe
+blindworm
+caecilian
+cavy
+chigger
+springtail
+mandrill
+spermaceti
+peccary
+ciliate
+pekan
+lumpsucker
+cowfish
+pelycosaur
+peripatus
+lorikeet
+deerhound
+backswimmer
+dhole
+ostracoderm
+babbler
+phalanger
+serval
+axolotl
+ortolan
+elkhound
+ladybug
+flagellate
+whippoorwill
+froghopper
+gaur
+ormer
+gavial
+argali
+gemsbok
+krait
+wireworm
+wisent
+apatosaurus
+opah
+kinkajou
+remora
+redfish
+katydid
+guan
+guenon
+numbat
+harvestman
+hoatzin
+addax
+pterosaur
+jabiru
+pronghorn
+porbeagle
+?Abyssinian cat
+Acanthodii
+Acanthurus
+Acarina
+Accipitor
+Acrogaster
+Acrolepis
+Adelges
+Aedes
+Aepyornis
+Afghan hound
+African palm squirrel
+Airedale terrier
+Akita
+Alaskan malamute
+Alcedo
+Alcidae
+Alcyonacea
+Alsatian
+Amblyopsis
+Ammodytes
+Amphioxus
+Amphiuma
+Anabas
+Anableps
+Anarrhichas
+Ancylus
+Anguilliformes
+Anguis
+Anolis
+Anopheles
+Anoplura
+Anura
+Apterygota
+Ara
+Arab horse
+Arachnida
+Arapaima
+Archaeocyathid
+Archeocyathid
+Arenicola
+Arracacia
+Arthrodira
+Artiodactyla
+Asiatic wild ass
+Ateles
+Auricula
+Australian cattle dog
+Australian magpie
+Australian sheepdog
+Australian terrier
+Avicula
+Bactrian
+Balaeniceps
+Balistidae
+Baltimore bird
+Baluchitherium
+Barbary ape
+Barbary sheep
+Baris
+Batoidea
+Bedlington
+Belgian sheepdog
+Birman
+Biston
+Bivalvia
+Blaps
+Blastoidea
+Blattaria
+Boarmia
+Bombay duck
+Bombycidae
+Bombycilla
+Bonasa
+Bongar
+Bos
+Boston terrier
+Bovidae
+Brachyteles
+Brama
+British Blue
+Brosmius
+Brotula
+Bruchus
+Bryozoan
+Buccinum
+Bufo
+Bulinus
+Buphagus
+Burmese cat
+Callichthys
+Callidium
+Callionymus
+Calliphoridae
+Camberwell beauty
+Cantharidae
+Cape mountain zebra
+Capra
+Carinaria
+Catarrhini
+Caudata
+Cavalier King Charles spaniel
+Cebidae
+Cebus
+Cecidomyiidae
+Centriscus
+Cerambycidae
+Ceratina
+Ceratopogonidae
+Cerberus
+Cercopithecidae
+Cercopithecus
+Cerithium
+Certhia
+Certhiidae
+Certhilauda
+Cervidae
+Cervus
+Chaetodon
+Chaetopterus
+Chalcides
+Charadriiformes
+Chelifer
+Chelonia
+Chinese crested dog
+Chironectes
+Chironomus
+Chiroptera
+Chordata
+Chrysididae
+Chrysochloridae
+Chrysomelidae
+Ciliophora
+Citharinus
+Cladoselachian
+Clavagella
+Clio
+Clumber spaniel
+Clupeiformes
+Cobitis
+Coccoidea
+Coleoidea
+Coleoptera
+Collembola
+Colorado beetle
+Colourpoint Longhair
+Coluber
+Columba
+Coregonus
+Coronella
+Corvus
+Coryphaena
+Crinoidea
+Crocodylia
+Crossopterygii
+Cuculidae
+Culex
+Culicidae
+Cuterebridae
+Cycliophora
+Cypraeacea
+Cyprinidae
+Cyprinodontidae
+Cystoidea
+Dactylopterus
+Dalmatian
+Dandie Dinmont
+Deinotherium
+Dendrophis
+Dentalium
+Dermaptera
+Dictyoptera
+Diomedea
+Diplura
+Dipnoi
+Diptera
+Dipterus
+Dobermann
+Dytiscidae
+Echinodermata
+Edentata
+Edrioasteroidea
+Elanus
+Elaps
+Elasmobranchii
+Embioptera
+English toy terrier
+Eosuchia
+Ephemeroptera
+Equidae
+Eryx
+Ethiopian wolf
+Euglena
+European corn borer
+Eutheria
+Falconiformes
+Fringillidae
+Galliformes
+German shepherd
+Giganotosaurus carolinii
+Glaucus
+Globigerina
+Glossinidae
+Glyptodon
+Gobio
+Goliath beetle
+Gordon setter
+Great Dane
+Grylloblattodea
+Guinea worm
+Haliotis
+Havana cat
+Hawaiian goose
+Heaviside's dolphin
+Helix
+Hemiptera
+Hercules beetle
+Hesperornis
+Heterodontus
+Heteroptera
+Hipparion
+Hippocampus
+Hirudinea
+Holacanthus
+Holocephali
+Holothuroidea
+Homoptera
+Hymenoptera
+Hyracotherium
+Ianthina
+Ichthyornis
+Insecta
+Insectivora
+Irish terrier
+Irish water spaniel
+Irish wolfhound
+Isoptera
+Jack Russell terrier
+Janthina
+Japanese spaniel
+Java sparrow
+Jentink's duiker
+John Dory
+Karelian bear dog
+Kerry blue terrier
+King Charles spaniel
+Korat
+Labrador retriever
+Labyrinthodont
+Lagomorpha
+Lakeland terrier
+Lamellibranchia
+Lampyris
+Laniidae
+Laridae
+Lhasa apso
+Limax
+Lippizaner
+Lumbricus
+Macropodidae
+Madagascar teal
+Maine Coon
+Malapterurus
+Mallophaga
+Maltese dog
+Manchester terrier
+Mantodae
+Manx cat
+Marsupialia
+Mastigophora
+Mecoptera
+Megalosaurus
+Megapodiidae
+Melanian
+Menura
+Mexican hairless dog
+Minsmere
+Moeritherium
+Mollusca
+Mononychus olecranus
+Monotremata
+Morgan horse
+Mother Carey's chicken
+Munsterlander
+Murray cod
+Muscidae
+Natural History Museum
+Nautilus
+Neopilina
+Neuroptera
+Newfoundland (dog)
+Noctiluca
+Norfolk terrier
+Norwich terrier
+Nudibranchia
+Odonata
+Oestridae
+Old English sheepdog
+Oligochaeta
+Onychophora
+Ophiuroidea
+Orthoptera
+Papio
+Paramecium
+Passeriformes
+Pelecypoda
+Pentacrinus
+Perissodactyla
+Persian cat
+Phasmida
+Phenacodus
+Pholis
+Picathartes
+Pinna
+Pipa pipa
+Placodermi
+Platyhelminthes
+Platyrrhini
+Plecoptera
+Portuguese man-of-war
+Proboscidea
+Prosobranchia
+Proteus
+Protura
+Psittacidae
+Psocoptera
+Psychodidae
+Pterygota
+Pulmonata
+Pycnogonida
+Rallidae
+Rana
+Reptilia
+Rex cat
+Rhodesian ridgeback
+Rhynchocephalia
+Rocky Mountain goat
+Rocky Mountain sheep
+Rottweiler
+Russian Blue
+Salmonidae
+Sarcodina
+Sarcophagidae
+Scarabaeus
+Scombridae
+Scottish Fold cat
+Scottish terrier
+Sealyham
+Serpula
+Sheltie
+Shetland sheepdog
+Siamese cat
+Siamese fighting fish
+Simuliidae
+Siphonaptera
+Skye terrier
+Sokoke scops owl
+Spanish fly
+Sphynx cat
+Squamata
+St Bernard
+Staffordshire bull terrier
+Steatornis
+Stegosaurus
+Stegoselachian
+Steller's sea cow
+Strepsiptera
+Strigidae
+Suriname toad
+Sussex spaniel
+Tabanidae
+Tasmanian devil
+Tasmanian wolf
+Teleostei
+Tenebrionidae
+Teredo
+Testudo
+Thomson's gazelle
+Thysanoptera
+Thysanura
+Tibetan mastiff
+Tibetan spaniel
+Tibetan terrier
+Trichoptera
+Trochilidae
+Turbellaria
+Tuscan shrew
+Urodela
+Volvox
+Weimaraner
+Welsh corgi
+West Highland terrier
+Yorkshire terrier
+Zoraptera
+aardwolf
+accentor
+acorn worm
+acouchi
+acrodus
+adjutant bird
+admiral (species)
+agamid
+ajolote
+alder fly
+alligator lizard
+amadavat
+amberfish
+amblypod
+ameba
+angler fish
+animal, domestic
+anomalocaris
+ant lion
+ant thrush
+anthracothere
+antiarch
+aoudad
+aphis lion
+aquatic insect
+archerfish
+arctic animals
+argus pheasant
+army worm
+arna
+arsinoitherium
+assassin bug
+avadavat
+axis deer
+azurine
+b&ecirc;che-de-mer
+bacon beetle
+banded brush beetle
+bandfish
+bandy-bandy
+barbastelle
+bark beetle
+barking deer
+barley midge
+barn owl
+barramunda
+basilisk (zoology)
+basket-star
+bass (fish)
+bat fly
+bat-eared fox
+bearded collie
+bec-fin
+bee louse
+bee-eater
+beetfly
+beetle, Colorado
+bell-bird
+bergylt
+bichir
+bichon frise
+big horn sheep
+bilby
+bird louse
+bird of paradise
+bird-eating spider
+biscuit beetle
+bitterling
+black ape
+black bass
+black beetle
+black fish (freshwater)
+black fish (marine)
+black widow
+blackfly (bloodsucker)
+blackfly (plantsucker)
+blacksnake
+blesbok
+blister beetle
+blood-bird
+blue jay
+blue marlin
+blue roach
+blue robin
+blue shark
+blue warbler
+blue whale
+bluebuck
+boarfish
+boatbill
+body louse
+boll weevil
+bombardier beetle
+bony fish
+bony pike
+boobook
+book scorpion
+booklouse
+boomslang
+border collie
+border terrier
+boring-worm
+bower bird
+braconid
+brambling
+brindled wildebeest
+brisling
+bristle-worm
+bristletail
+brittle-star
+broadbill
+brocket
+brolga
+bronze-wing
+brown bear
+brush turkey
+bubbleshell
+bug (insect)
+bull terrier
+bunting
+burbot
+burrowing owl
+burying beetle
+bush pig
+bush-shrike
+bushman's rabbit
+bushmaster
+butcherbird
+butterfly fish
+cabbage butterfly
+cachalot
+caddis fly
+cage bird
+cairn (dog)
+candle fish
+cane toad
+caracal
+cardinal (bird)
+carpet beetle
+carrion crow
+cartilaginous fish
+castoreum
+cat-bird
+cave animal
+cave spider
+cavefish
+cedar waxwing
+chacma
+chafer
+chat (bird)
+chata
+cheese mite
+chevrotain
+chickadee
+chiffchaff
+chimaera
+chiru
+chital
+chow chow
+cigarette beetle
+click beetle
+climactichnite
+clothes moth
+clubshell
+coal tit
+coalfish
+cock of the wood
+cock-of-the-rock
+cocker spaniel
+coley
+coral snake
+cotton stainer
+cotton-stainer
+cotton-worm
+cotylosaur
+cow shark
+crab louse
+crane fly
+crane, whooping
+cricket (insect)
+cuckoo spit
+cuckoo-spit insect
+cuckoo-wasp
+curassow
+cutworm
+daddy-longlegs
+darkling beetle
+dasyure
+death's-head moth
+deathwatch beetle
+devil fish
+devil ray
+devil's coach horse
+devilfish
+dik-dik
+diplomonad
+diprotodon
+dogwhelk
+dolphinfish
+dor beetle
+douroucouli
+dove (zoology)
+dragon (zoology)
+dragonet
+drill (zoology)
+drone (zoology)
+drugstore beetle
+duck-billed platypus
+duiker
+duikerbok
+eagle owl
+earshell
+eelpout
+eggar-moth
+elater beetle
+electric eel
+electric fish
+electric ray
+elephant bird
+elephant shrew
+elephant's tusk shell
+elephant-trunk fish
+elk, Irish
+entellus monkey
+fallow deer
+feather star
+fence lizard
+fennec
+fighting fish
+firebrat
+flesh fly
+flour beetle
+flying dragon
+flying fish
+flying fox
+flying gurnard
+flying lemur
+flying lizard
+flying squirrel
+foraminifera
+forest fly
+fox terrier
+fox, red
+francolin
+frigate bird
+frilled lizard
+fritillary (zoology)
+frog, Wallace's flying
+fruit bat
+furniture beetle
+galago
+gall midge
+gall wasp
+garpike
+gayal
+genet
+geometric tortoise
+gharial
+gila monster
+glass lizard
+glass snake
+globefish
+glow-worm
+goat moth
+golden lion tamarin
+golden mole
+golden oriole
+golden retriever
+golden-eye fly
+golomynka
+goosefish
+gopher tortoise
+grass moth
+grass snake
+grayling
+grayling butterfly
+great northern diver
+great white shark
+green chafer
+greenbottle
+greenfinch
+grey kangaroo
+griffon Bruxelloise
+griffon vulture
+grilse
+ground beetle
+guacharo
+guinea fowl
+guinea pig
+guitarfish
+gymnophiona
+hamadryad (zoology)
+hammerhead shark
+handfish
+hangnest
+hangul
+hanuman (monkey)
+harpy eagle
+harrier (hound)
+hartebeest
+harvest mite
+hawk moth
+hawk-eagle
+head louse
+heart urchin
+heathcock
+hedge sparrow
+hellbender
+helmet shell
+hen-sparrow
+hermit crab
+hessian fly
+hognose
+honey buzzard
+honey possum
+honeycomb moth
+honeycomb worm
+honeyeater
+honeyguide
+horn (zoology)
+horn fly
+horned toad
+horned viper
+horse mackerel
+houtou
+hoverfly
+howler monkey
+huia
+hummingbird moth
+hunting dog
+hybodont
+hydra (zoology)
+ichneumon fly
+ichthyosaur
+itch mite
+izard
+jacamar
+jacana
+jaguarundi
+jumping hare
+jungle fowl
+kagu
+kaka
+kakapo
+karabash
+keeshond
+keyhole limpet
+killer whale
+king crab
+kinglet
+kite (zoology)
+klipspringer
+knifefish
+knot (bird)
+komondor
+kouprey
+kuvasz
+lac insect
+lacewing
+lantern fly
+lanternfish
+lapwing
+laughing dove
+laughing jackass
+leaf insect
+leaf-hopper
+lemming
+ling (fish)
+linsang
+litoptern
+longhorn beetle
+lophiodont
+loris
+lyrebird
+lyretail
+mako
+malacology
+mallee fowl
+man-of-war bird
+manakin
+mandarin duck
+mangabey
+mara
+markhor
+marsh harrier
+martin (zoology)
+matamata
+meal-worm
+mealy bug
+megamouth
+megathere
+menhaden
+menopome
+merlin
+mermaid's purse
+mesosaur
+miller's thumb
+missel thrush
+mistle thrush
+mole (zoology)
+mole cricket
+mole rat, naked
+monitor (zoology)
+mopane worm
+motmot
+mound-bird
+mountain gorilla
+mountain lion
+mouse deer
+mousebird
+mud devil
+mudfish
+mudnester
+mudpuppy
+multituberculate
+muscovy duck
+musk deer
+musk ox
+mutton bird
+myna
+native companion
+nautiloid
+ne-ne
+needlefish
+night heron
+nightowl
+northern oriole
+nummulite
+nun moth
+nyala
+oarfish
+oil beetle
+olm
+onager
+orang pendek
+orang-utan
+orfe
+osteolepidae
+otter-shrew
+otterhound
+ounce (animal)
+oxpecker
+oyster catcher
+paddy bird
+painted lady
+palaeoniscid
+palolo worm
+pantothere
+paper nautilus
+paradise, bird of
+paradisefish
+parr
+parrot fish
+passenger pigeon
+peacock butterfly
+pegasid
+pekingese
+perch, climbing
+peregrine falcon
+periwinkle (snail)
+petit Braban&ccedil;on
+pharaoh hound
+phessant
+phylloxera
+phytosaur
+pigeon hawk
+pike-perch
+pikeperch
+pilotfish
+pine marten
+pine siskin
+pintail duck
+pinworm
+piping crow
+pit bull terrier
+plantain eater
+pleuracanth
+pliosaur
+polar bear
+pollack
+pomeranian
+pond-skater
+porcupine fish
+powan
+powder post beetle
+prairie chicken
+prairie dog
+prairie wolf
+praying mantis
+proboscis monkey
+pseudoscorpion
+pteraspid
+puff adder
+puffbird
+puffer fish
+puli
+purple emperor
+ragworm
+rat-tail
+ratite
+ray, electric
+razor-shell
+red admiral butterfly
+red deer
+red panda
+red setter
+red spider mite
+redwing
+reed warbler
+rhesus monkey
+rhim
+ribbonfish
+rice bird
+rifle-bird
+ring ouzel
+ring-dove
+rock crawler
+rock salmon
+rock-fowl
+rockling
+roe deer
+rose beetle
+rose chafer
+rose-coloured starling
+rotifer
+rough collie
+rove beetle
+royal antelope
+ruby-tailed cuckoo wasp
+ruff (zoology)
+ruffe
+sacred baboon
+sage grouse
+saithe
+saki
+saluki
+samoyed
+sand eel
+sand hopper
+sand lizard
+sand martin
+sanderling
+sandflea
+sawfish
+sawshark
+scale insect
+scaly anteater
+scheltopusik
+schipperke
+scimitar oryx
+scissorbill
+scorpion fly
+scrub bird
+sea anemone
+sea bass
+sea butterfly
+sea cucumber
+sea eagle
+sea hare
+sea horse
+sea lily
+sea lion
+sea mouse
+sea potato
+sea robin
+sea slug
+sea snake
+sea squirt
+sea urchin
+sea-grapes
+sea-spider
+seabat
+secretary bird
+seriema
+sexton beetle
+shama
+sheathbill
+sheep ked
+shih tzu
+ship worm
+shoebill
+short-eared owl
+shrew mole
+shrew, Tuscan
+siren (zoology)
+sitatunga
+slow worm
+slow-worm
+slug (zoology)
+smolt
+smooth collie
+smooth snake
+snake fly
+snakebird
+snow bunting
+snow leopard
+snowcap
+snowfinch
+solan goose
+soldier beetle
+soldier bird
+solenodon
+song thrush
+sparrow hawk
+sparrow, Java
+spider monkey
+spinone
+spiny anteater
+spittlebug
+springer spaniel
+spur-thighed tortoise
+squirrel monkey
+stag beetle
+star-nosed mole
+starling
+steinbok
+stick insect
+stonefly
+sucker fish
+sun-bittern
+sunbird
+surfbird
+surgeon fish
+suslik
+swallow shrike
+tabby cat
+tailorbird
+taipan
+terror bird
+thrush (bird)
+tiger beetle
+titanothere
+tope (shark)
+torpedo (fish)
+tortoise beetle
+tosa
+touraco
+tree creeper
+tree-frog
+trepang
+triconodonta
+trilobite
+triple nose-leaf bat
+troupial
+tsetse fly
+tucu-tuco
+tuna-fish
+turkey vulture
+turtle dove
+turtle-dove
+tussock moth
+uakari
+udad
+uintathere
+umbrella bird
+urial
+vampire bat
+velvet worm
+viscacha
+wading bird
+warble fly
+wart hog
+water beetle
+water boatman
+water bug
+water flea
+water measurer
+water ouzel
+water scorpion
+wax moth
+waxbill
+waxwing
+webspinner
+weever fish
+weta
+whimbrel
+whip snake
+whirligig beetle
+whirling disease
+whiting
+whiting pout
+whooping crane
+wild boar
+willow warbler
+wolffish
+wood grouse
+wood ibis
+wood wasp
+woodmouse
+woodpigeon
+woodswallow
+woolly bear
+yapok
+zander
